@@ -1,0 +1,89 @@
+.top-bar{
+  background-color: black;
+  padding: 4px 10px 20px 40px;
+  margin-top: -10px !important;
+  margin-left: -10px !important;
+  margin-right: -10px !important;
+  color: white;
+}
+ #top a:link, a:visited{
+  color: white !important;
+}
+.menu-bar{
+	width: 78%;
+	margin: 0px auto;
+}
+.logo{
+	padding-left: 31px;
+	float: left;
+}
+.menu{
+	margin-left: 13em;
+	padding-top: 65px; 
+	
+}
+.search{
+	margin-left: 44em;
+	margin-top: -49px;
+}
+
+}
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+#l1 a {
+  outline: none;
+  text-decoration: none;
+  display: inline;
+  border: 1px solid green;
+  padding: 5px 10px;
+  margin-bottom: 11px;
+  width: 29.5%;
+  margin-right: 4.625%;
+  text-align: center;
+  line-height: 2;
+  color: black !important;
+}
+
+#l1 a:link, a:visited, a:focus {
+  background: white;
+  color: green;
+  border: 1px solid green;  
+}
+
+#l1 a:hover {     
+  background: green;
+  color: white !important;
+  border: 1px solid green;
+}
+
+#l1 a:active {
+  background: red;
+  color: white;
+  border: 1px solid green;
+}
+
+#l1 li:last-child a {
+  margin-right: 0;
+}
+.cover{
+  padding-top: 40px;
+}
+.table-top{
+  margin-top: 2em;
+}
+.table-bottom{
+  padding-top: 2em;
+}
+.font{
+  padding-left: 5.2em; 
+  font-size: 2em; 
+  text-decoration-line: underline;
+}
+
