@@ -8,12 +8,12 @@
   <body>
   <div class="top-bar">
   	<div style="padding-left: 8em;float: left;">Need help? Call +919876543211</div>
-  	<div id="top" style="margin-left: 53em;"><a href="Login.php"> Login </a>&nbsp;&nbsp; <a href="Signin.php"> Sign in </a></div>
+  	<div id="top" style="margin-left: 53em;"><a href="Login.php"> Login </a>&nbsp;&nbsp; <a href="Signin.php"> Sign up </a></div>
   </div>
   <div class="menu-bar">
   	<div class="logo"><a href="index.html"><img src="img/sa 2.jpg"/></a></div>
   	<div class="menu" id="l1"><ul type="none">
-  			<li><a href="index.html">Home</a></li><li><a href="#">Movies</a></li><li><a href="#">About us</a></li><li><a href="#">Contact us</a></li>
+  			<li><a href="index.html">Home</a></li><li><a href="#">Movies</a></li><li><a href="aboutus.html">About us</a></li><li><a href="contact.html">Contact us</a></li>
 			</ul></div>
 
 
@@ -24,7 +24,7 @@
   </div><br/><br/>
 
   <form action="#" method="post">
-  <div style="float: center; padding-top: 1em; padding-left: 25em; color: red;"><h2>You must sign in first</h2></div>
+  <div style="float: center; padding-top: 1em; padding-left: 25em; color: red;"><h2>You must sign up first</h2></div>
   <table border="2" bordercolor="green" align="center">
     <td>
       <table cellspacing="4" cellpadding="8">
@@ -47,7 +47,9 @@
       <tr>
         <td width="1000" height="200" align="center"><img src="img/11.jpg" width="1000" height="200"/></td>
       </tr>
-  </table>
+  </table><br/><br/><br/>
+  <div style="background-color: black; padding: 15px 10px 20px 40px; color: white; margin-bottom: -20px !important; margin-left: -140px !important; margin-right: -140px !important;"><div style="padding-left: 8em;float: left;"><a href="#">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Instagram</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">LinkedIn</a></div>
+    </div>
   <?php
        if(isset($_POST["btn"]))
        {

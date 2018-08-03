@@ -15,17 +15,15 @@
     header("location:Login.php");
   ?>
 
-
-
   <body>
   <div class="top-bar">
   	<div style="padding-left: 8em;float: left;">Need help? Call +919876543211</div>
   	<div id="top" style="margin-left: 53em;"><?php echo "User: $user"?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo "<a href=Login.php>Logout</a>"?></div>
   </div>
   <div class="menu-bar">
-  	<div class="logo"><a href="index.html"><img src="img/sa 2.jpg"/></a></div>
+  	<div class="logo"><a href="temp2.php"><img src="img/sa 2.jpg"/></a></div>
   	<div class="menu" id="l1"><ul type="none">
-  			<li><a href="index.html">Home</a></li><li><a href="#">Movies</a></li><li><a href="#">About us</a></li><li><a href="#">Contact us</a></li>
+  			<li><a href="index.html">Home</a></li><li><a href="#">Movies</a></li><li><a href="aboutus.html">About us</a></li><li><a href="contact.html">Contact us</a></li>
 			</ul></div>
 
 
@@ -48,15 +46,17 @@
   <div class="table-bottom">
     <table bordercolor="blue" border="2" align="center" cellpadding="10" cellspacing="4">
       <tr align="center">
-        <td width="140" height="170"><img src="img/7 (1).jpg"/></td>
-        <td width="170"><img src="img/7 (2).jpg"/></td>
-        <td width="170"><img src="img/7 (3).jpg"/></td>
+        <td width="140" height="170"><a href="temp.php"><img src="img/7 (5).jpg"/></a></td>
+        <td width="170"><a href="Login.php"><img src="img/7 (2).jpg"/></a></td>
+        <td width="170"><a href="Login.php"><img src="img/7 (3).jpg"/></a></td>
       </tr>
       <tr align="center">
-        <td width="170" height="220"><img src="img/7 (4).jpg"/></td>
-        <td width="170"><img src="img/7 (5).jpg"/></td>
-        <td width="170"><img src="img/7 (6).jpg"/></td>
+        <td width="170" height="220"><a href="Login.php"><img src="img/7 (4).jpg"/></a></td>
+        <td width="170"><a href="Login.php"><img src="img/7 (1).jpg"/></a></td>
+        <td width="170"><a href="Login.php"><img src="img/7 (6).jpg"/></a></td>
       </tr>
     </table><br/><br/><br/><br/>
+  <div style="background-color: black; padding: 15px 10px 20px 40px; color: white; margin-bottom: -20px !important; margin-left: -10px !important; margin-right: -10px !important;"><div style="padding-left: 8em;float: left;"><a href="#">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Instagram</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">LinkedIn</a></div>
+    </div>
 </body>
 </html>
